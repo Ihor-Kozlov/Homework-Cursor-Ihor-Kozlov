@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+background-color: rgb(238, 187, 20);
+font-size: 14px;
+font-family: "Arial";
+line-height: 2;
+letter-spacing: 0.05px;
+}
+body{
+    padding: 20px;
+}
+
+.frame{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border: 5px solid #020203;
+    max-width: 1024px;
+}
