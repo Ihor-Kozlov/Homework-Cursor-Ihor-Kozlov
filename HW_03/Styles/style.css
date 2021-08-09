@@ -1,0 +1,411 @@
+
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+#Banners{
+    width: normal;
+    height: 133px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 110px;
+    line-height: 133px;
+    display: inline;
+    text-align: center;
+    color: #0B2239;
+
+}
+
+.dark-theme-cookie-message{
+    width: 1440px;
+    height: 72px;
+    display: inline-flex;
+    align-items: center;
+    background: #0B2239;
+    margin: 12px 0px;
+}
+.dark-theme-cookie-message p{
+    color:#FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    width: 922px;
+    height:40px;
+    text-align: justify;
+    margin: 16px 42px 16px 120px;
+}
+.dark-theme-cookie-message a{
+    color:#4AD295;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    width: 86px;
+    height: 20px;
+    margin: 26px 20px 26px 0px;
+}
+.dark-theme-cookie-message button{
+    background-color:#4AD295;
+    color:#FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    width: 130px;
+    height: 36px;
+    border: 0;
+    padding: 8px 10px;
+    margin:18px 120px 18px 0px;
+    cursor: pointer;
+}
+
+.banner-dark-grey-cookie{
+    width: 1440px;
+    height: 52px;
+    margin: 12px 0px;
+    margin-bottom:12px;
+    background: #2B2627;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-dark-grey-cookie p{
+    color: #FFFFFF;
+    width: 689px;
+    height: 20px;
+    margin: 16px 0px 16px 8px;
+}
+.banner-dark-grey-cookie p a{
+    color: #FFFFFF;
+}
+
+.banner-read-cookies-police{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 560px;
+    height: 72px;
+    background: #FFF;
+    border-radius: 16px;
+    font-family: 'Inter';
+}
+
+.banner-read-cookies-police img{
+    margin: 18px 0px 18px 16px;
+}
+
+.banner-read-cookies-police p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 16px 10px 16px 10px;
+}
+.banner-read-cookies-police p a{
+    color:#EA4C89;
+}
+.banner-read-cookies-police .decline{
+    width: 63px;
+    height: 28px;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    margin: 22px 10px 22px 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0D0C22;
+    border: none;
+    cursor: pointer;
+}
+.banner-read-cookies-police .allow{
+    width: 52px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    margin: 22px 16px 22px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-app-cookies{
+    background-color: #26262B;;
+    width: 560px;
+    height: 64px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    
+}
+
+.banner-app-cookies p{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 12px 10px 12px 16px
+}
+.banner-app-cookies p a{
+    color: orange;
+}
+.banner-app-cookies button{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 49px;
+    height: 28px;
+    border-radius: 8px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 18px 16px 18px 0px;
+    border: none;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+
+
+.banner-cookie-notice{
+    background-color:#1C2540;
+    width: 360px;
+    height: 206px;
+    border-radius: 6px;
+    margin: 12px 0px;
+}
+
+.banner-cookie-notice h3{
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 24px 200px 10px 24px;
+
+}
+.banner-cookie-notice .p-main{
+    color: #FFFFFF;
+    width: 320px;
+    height: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px; 
+    margin: 0px 24px 24px 24px;
+}
+
+.banner-cookie-notice .p-main span{
+    color: #FFFFFF;
+   text-decoration: underline;
+}
+
+.banner-cookie-notice .p-other{
+    display: -webkit-inline-flex;
+    color:#FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px 67px 32px 24px;
+}
+.banner-cookie-notice button{
+    background-color:#09B3AF ;
+    color: #FFFFFF;
+    text-align: center;
+    width: 85px;
+    height: 32px;
+    border:0px;
+    border-radius: 6px ;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.banner-cookies-settings {
+    display: inline-block;
+    background-color:#FFFFFF;
+    width: 360px;
+    height: 170px;
+    border-radius: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.banner-cookies-settings h3{
+   
+    width: 140px;
+    height: 20px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px 16px 10px 16px;
+}
+
+.banner-cookies-settings p{
+    width: 328px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin:0px 16px 16px 16px;
+    color: #687F8C;
+}
+.banner-cookies-settings .manage{
+    padding: 8px;
+    width: 160px;
+    height: 32px;
+    color:#687F8C;
+    background-color:#EAF0F4;
+    border: 0px;
+    border-radius: 6px;
+    margin: 0px 8px 16px 16px;
+    cursor: pointer;
+}
+
+.banner-cookies-settings .accept-all{
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 32px;
+    background-color:#40C1A7 ;
+    border-radius: 6px;
+    padding: 8px;
+    border: 0px;
+    color:#FFFFFF ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.banner-cookies{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    width: 320px;
+    height: 260px;
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.banner-cookies h1{
+    display: inline-block;
+    width: 104px;
+    height: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295A;
+    margin: 32px 108px 0px 108px;
+}
+.banner-cookies p{
+    display: inline-block;
+    color:#15295A;
+    width: 256px;
+    height: 72px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin:0px 32px 32px 32px;
+    text-align: center;
+}
+.banner-cookies button{
+    background-color:#4A7EFF;
+    color: #FFFFFF;
+    width: 121px;
+    height: 44px;
+    padding: 10px 32px;
+    border-radius: 43px;
+    border:none;
+    margin: 0px 99.5px 32px 99.5px;
+    cursor: pointer;
+}
+
+.banner-data{
+    background-color:#FFFFFF;
+    width: 320px;
+    height: 137px;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.banner-data p{
+    display: inline-block;
+    color:#000000 ;
+    width: 288px;
+    height: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 16px 16px 20px 16px;
+}
+.banner-data a{
+    display: inline;
+    color:#6666FF ;
+    width: 95px;
+    height: 17px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0px 129px 24px 16px;
+    text-decoration: none;
+}
+.banner-data button{
+    width: 64px;
+    height: 33px;
+    border: none;
+    border-radius:4px;
+    background-color:#6666FF;
+    padding: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
